@@ -1,2 +1,12 @@
-start:
-  ✔ get1 @done(21-07-09 18:59)
+rules:
+  ☐ eslint-import-resolver-typescript
+  ☐ runPrettier
+  ☐ 细化 node
+  ☐ 细化 react
+  ☐ 细化 jsx
+  ☐ 细化 vue
+
+test:
+  ☐ 合并 compare 项目
+  ☐ type category name 可筛选排序
+  ☐ rule config 分文件存放
