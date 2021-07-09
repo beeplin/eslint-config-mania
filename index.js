@@ -1,12 +1,11 @@
-import { rules as ruleModules } from 'eslint-plugin-import'
-import type { RuleModules, RulesRecord } from './types'
+const importRuleModules = require('eslint-plugin-import').rules
 
-const allImportRulesOn = Object.keys(ruleModules as RuleModules).reduce<RulesRecord>(
+const allImportRulesOn = Object.keys(importRuleModules).reduce(
   (acc, name) => ({ ...acc, [`import/${name}`]: ['error'] }),
   {},
 )
 
-export default {
+module.exports = {
   ignorePatterns: ['dist', 'lib'],
   reportUnusedDisableDirectives: true,
   parserOptions: { project: './tsconfig.json' },
