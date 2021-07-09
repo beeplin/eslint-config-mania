@@ -1,0 +1,18 @@
+{
+  "recommendations": [
+    "editorconfig.editorconfig",
+    "mhutchie.git-graph",
+    "christian-kohler.path-intellisense",
+    "visualstudioexptteam.vscodeintellicode",
+    "fabiospampinato.vscode-todo-plus",
+    "ryanluker.vscode-coverage-gutters",
+    "wmaurer.change-case",
+    "jrmce.moveon",
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "kavod-io.vscode-jest-test-adapter",
+    "ypresto.vscode-intelli-refactor",
+    "sburg.vscode-javascript-booster",
+    "chakrounanas.turbo-console-log"
+  ]
+}

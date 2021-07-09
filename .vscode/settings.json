@@ -1,0 +1,3 @@
+{
+  "pythonTestExplorer.testFramework": null // 如果安装了 pytest 插件，禁止其自动运行
+}
