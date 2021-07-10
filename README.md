@@ -10,7 +10,7 @@ npm i -D eslint eslint-config-mania prettier
 
 in your `eslintrc.json`:
 
-```json
+```js
 {
   "extends": [
     // required. must be on top. basic config supporting typescript, import, jest and prettier
