@@ -42,6 +42,7 @@ module.exports = {
     'id-denylist': ['off'],
     'id-length': ['off'],
     'id-match': ['off'],
+    '@typescript-eslint/init-declarations': ['off'],
     'line-comment-position': ['off'],
     'max-classes-per-file': ['warn'],
     'max-depth': ['warn'],
@@ -113,6 +114,24 @@ module.exports = {
       { blankLine: 'always', prev: '*', next: ['class', 'export', 'function'] },
     ],
     'prefer-arrow-callback': ['off'], // see https://github.com/prettier/eslint-config-prettier#arrow-body-style-and-prefer-arrow-callback
+    'prefer-destructuring': [
+      'error',
+      {
+        // eslint-disable-next-line @typescript-eslint/naming-convention
+        VariableDeclarator: {
+          array: false,
+          object: true,
+        },
+        // eslint-disable-next-line @typescript-eslint/naming-convention
+        AssignmentExpression: {
+          array: false,
+          object: false,
+        },
+      },
+      {
+        enforceForRenamedProperties: false,
+      },
+    ],
     'prefer-named-capture-group': ['off'],
     'prefer-promise-reject-errors': ['error', { allowEmptyReject: true }],
     '@typescript-eslint/prefer-readonly-parameter-types': ['off'],
