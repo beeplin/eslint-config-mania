@@ -210,6 +210,7 @@ module.exports = {
         'jest/no-hooks': ['off'],
         'jest/require-top-level-describe': ['off'],
         'jest/prefer-expect-assertions': ['off'],
+        'jest/prefer-todo': ['off'],
       },
     },
   ],
