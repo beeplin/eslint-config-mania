@@ -195,7 +195,7 @@ module.exports = {
         '*.test.ts',
         '*.spec.ts',
       ],
-      extends: ['plugin:jest/all'],
+      extends: ['plugin:jest/all', 'plugin:jest-formatting/strict'],
       rules: {
         'max-classes-per-file': ['off'],
         'max-depth': ['off'],
