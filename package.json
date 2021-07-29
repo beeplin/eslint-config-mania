@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-mania",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "a manic eslint config for typescript",
   "main": "index.js",
   "private": false,
