@@ -29,7 +29,7 @@ const rulesToDisableTypeAware = tsTypeAwareRuleNames.reduce((acc, tsRuleName) =>
   return {
     ...acc,
     [tsRuleName]: ['off'],
-    ...(esRuleName ? { [esRuleName]: ['error'] } : {}),
+    ...(esRuleName ? { [esRuleName]: ['error'] } : {}), // TODO 根据 base rules 来决定 error or warn or off
   }
 }, {})
 
